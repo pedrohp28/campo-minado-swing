@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c692432-65f8-4eb2-93b4-3707497da587" name="Changes" comment="Inicializando projeto">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrohp28/cm/modelo/CampoEvento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrohp28/cm/modelo/CampoObservador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrohp28/cm/visao/BotaoCampo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrohp28/cm/visao/PainelTabuleiro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrohp28/cm/visao/TelaPrincipal.java" afterDir="false" />
+    <list default="true" id="4c692432-65f8-4eb2-93b4-3707497da587" name="Changes" comment="Reorganizando o código para uma interface gráfica">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrohp28/cm/modelo/ResultadoEvento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/pedrohp28/cm/Aplicacao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/pedrohp28/cm/excecao/ExplosaoException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/pedrohp28/cm/excecao/SairException.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/pedrohp28/cm/modelo/Campo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrohp28/cm/modelo/Campo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/pedrohp28/cm/modelo/CampoEvento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrohp28/cm/modelo/CampoEvento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/pedrohp28/cm/modelo/Tabuleiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrohp28/cm/modelo/Tabuleiro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/pedrohp28/cm/visao/TabuleiroConsole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/pedrohp28/cm/modelo/CampoTeste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/pedrohp28/cm/visao/BotaoCampo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrohp28/cm/visao/BotaoCampo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/pedrohp28/cm/visao/PainelTabuleiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrohp28/cm/visao/PainelTabuleiro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +52,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/pedro/IdeaProjects/aulasUdemy/campo-minado-swing/src/test/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -96,7 +93,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675981039184</updated>
-      <workItem from="1675981040516" duration="4047000" />
+      <workItem from="1675981040516" duration="4179000" />
+      <workItem from="1676065772120" duration="5310000" />
     </task>
     <task id="LOCAL-00001" summary="Inicializando projeto">
       <created>1675981281012</created>
@@ -105,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675981281012</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Reorganizando o código para uma interface gráfica">
+      <created>1675985214656</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675985214656</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inicializando projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicializando projeto" />
+    <MESSAGE value="Reorganizando o código para uma interface gráfica" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorganizando o código para uma interface gráfica" />
   </component>
 </project>
